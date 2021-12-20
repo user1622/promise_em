@@ -1,5 +1,5 @@
 # EmPromise
-
+[![Gem Version](https://badge.fury.io/rb/promise_em.svg)](https://badge.fury.io/rb/promise_em)
 ## Installation
 
 Add this line to your application's Gemfile:
