@@ -9,5 +9,5 @@ Bundler.require
 module PromiseEm
   class Error < StandardError; end
 
-  autoload(:Promise, "./lib/promise_em/promise")
+  autoload(:Promise, "promise_em/promise")
 end

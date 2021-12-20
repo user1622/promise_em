@@ -22,7 +22,7 @@ Simple example with one deferrable
 
 ```ruby
 EM.run do
-  EmPromise::Promise.new do |resolve, _reject|
+  PromiseEm::Promise.new do |resolve, _reject|
     puts 'new promise'
     EM::Timer.new(0.1) { resolve.call('hello') }
   end.then do |arg|
@@ -42,7 +42,7 @@ Example with few deferrable
 
 ```ruby
 EM.run do
-  EmPromise::Promise.new do |resolve, _reject|
+  PromiseEm::Promise.new do |resolve, _reject|
     puts 'new promise'
     EM::Timer.new(0.1) { resolve.call('hello') }
   end.then do |arg|
